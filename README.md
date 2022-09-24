@@ -12,8 +12,10 @@ Notlar:
         A101 websitesine adres kaydederken herhangi bir değişiklik yapılmamış ise kaydet butonuna tıklanılamamaktadır. 
         
         Kargo firmaları değişkenlik gösterebilmektedir. İlgili kargoya göre kod değiştirilmek durumundadır.
+        Örnek olarak an itibarı ile İstanbul, Arnavutköy, Anadolu Mahallesi'nde UPS Kargo seçeneği mevcuttur ancak ileride veya başka bir adreste mevcut olmayabilir.
         
-        Zaman zaman başlangıçta linklere tıklanamadığı durumlarla karşılaştım benzer bir durum ile karşılaşırsanız lütfen bildirin
+        Zaman zaman başlangıçta linklere tıklanamadığı durumlarla karşılaştım benzer bir durum ile karşılaşırsanız veya herhangi bir hata ile karşılaşırsanız lütfen             bildirin.
+        
         E-Mail: gcnsntgrl@gmail.com
         LinkedIn: https://www.linkedin.com/in/gcnto/
         
