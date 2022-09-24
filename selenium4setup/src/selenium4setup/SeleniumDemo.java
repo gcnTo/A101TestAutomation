@@ -113,17 +113,17 @@ public class SeleniumDemo {
 		System.out.println("Phase 14");
 		WebElement ddown = driver.findElement(By.name("city"));
 		Select select = new Select(ddown); 
-		select.selectByVisibleText("BİTLİS");
+		select.selectByVisibleText("İSTANBUL");
 		
 		System.out.println("Phase 15");
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/form[1]/div[7]/label[1]/textarea[1]")));
-		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/form[1]/div[7]/label[1]/textarea[1]")).sendKeys("6 Trujillo Court, Sparks,nv, 89431  United States");
+		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/form[1]/div[7]/label[1]/textarea[1]")).sendKeys("Lorem mh. Lorem cd. Lorem sk. Lorem Evleri, Lorem Blok, Daire: Lorem Kat: Lorem");
 		
 		System.out.println("Phase 16");
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("township")));
 		WebElement ddown2 = driver.findElement(By.name("township"));
 		Select select2 = new Select(ddown2); 
-		select2.selectByVisibleText("ADİLCEVAZ");
+		select2.selectByVisibleText("ARNAVUTKÖY");
 		
 		System.out.println("Phase 17");
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/form[1]/div[7]/label[1]/textarea[1]")));
@@ -133,15 +133,15 @@ public class SeleniumDemo {
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("district")));
 		WebElement ddown3 = driver.findElement(By.name("district"));
 		Select select3 = new Select(ddown3); 
-		// SELÇUKLU MAH YILDIZKÖY KÖYÜ
-		select3.selectByVisibleText("SELÇUKLU MAH");
+		select3.selectByVisibleText("ANADOLU MAH");
 		
 		System.out.println("Phase 19");
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(),'KAYDET')]")));
 		driver.findElement(By.xpath("//button[contains(text(),'KAYDET')]")).click();
 		
 		System.out.println("Phase 20");
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'Sendeo')]")));
-		driver.findElement(By.xpath("//span[contains(text(),'Sendeo')]")).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'UPS Kargo')]")));
+		driver.findElement(By.xpath("//span[contains(text(),'UPS Kargo')]")).click();
 		
 		System.out.println("Phase 21");
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(),'Kaydet ve Devam Et')]")));
