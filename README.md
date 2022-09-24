@@ -1,7 +1,8 @@
 # A101TestAutomation
 
 Jar Dosyaları İçin Link: https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.4.0/selenium-java-4.4.0.zip
-Chomer WebDriver Linki: https://chromedriver.storage.googleapis.com/index.html?path=105.0.5195.52/
+
+Chrome WebDriver Linki: https://chromedriver.storage.googleapis.com/index.html?path=105.0.5195.52/
 
 Notlar: 
 
