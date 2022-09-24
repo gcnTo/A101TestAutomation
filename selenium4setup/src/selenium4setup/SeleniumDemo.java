@@ -175,6 +175,8 @@ public class SeleniumDemo {
 		System.out.println("Phase 27");
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//body/section[1]/section[1]/div[1]/div[3]/div[2]/div[1]/div[2]/form[1]/div[2]/div[2]/div[6]/button[1]/span[2]")));
 		driver.findElement(By.xpath("//body/section[1]/section[1]/div[1]/div[3]/div[2]/div[1]/div[2]/form[1]/div[2]/div[2]/div[6]/button[1]/span[2]")).click();
+
+                driver.quit();
 		
 	}
 
