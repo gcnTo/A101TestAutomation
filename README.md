@@ -14,11 +14,12 @@ Notlar:
         
         Kargo firmaları değişkenlik gösterebilmektedir. İlgili kargoya göre kod değiştirilmek durumundadır.
         Örnek olarak an itibarı ile İstanbul, Arnavutköy, Anadolu Mahallesi'nde UPS Kargo seçeneği mevcuttur ancak ileride veya başka bir adreste mevcut olmayabilir.
-        Bunun önüne geçmek için 148. ve 149. satırlarda uygun kargo adı girilmelidir.
+        Bunun önüne geçmek için 143. ve 144. satırlarda uygun kargo adı girilmelidir.
         
         Zaman zaman StaleElementReference exceptionı alınmaktadır. Program tekrar çalıştırılmalıdır.
         
-        Zaman zaman Ten rengi çorap seçilmektedir ancak bu durmda program bunu kontrol edip bir önceki sayfaya geri dönüp siyah çorap seçildiğini doğrulamaktadır.
+        Zaman zaman Ten rengi çorap seçilmektedir ancak bu durmda program bunu kontrol edip bir önceki sayfaya geri dönüp siyah çorap seçildiğini doğrulamaktadır. 
+        (Detayları için 70. satıra göz atmanız rica olunur.)
         
         Zaman zaman başlangıçta linklere tıklanamadığı durumlarla karşılaştım benzer bir durum ile karşılaşırsanız veya herhangi bir hata ile karşılaşırsanız lütfen             bildirin.
         
