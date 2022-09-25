@@ -13,7 +13,7 @@ Notlar:
         A101 websitesine adres kaydederken herhangi bir değişiklik yapılmamış ise kaydet butonuna tıklanılamamaktadır. Bunun önüne geçmek için yeni adres girilmelidir.
         
         Kargo firmaları değişkenlik gösterebilmektedir. İlgili kargoya göre kod değiştirilmek durumundadır.
-        Örnek olarak an itibarı ile İstanbul, Arnavutköy, Anadolu Mahallesi'nde UPS Kargo seçeneği mevcuttur ancak ileride veya başka bir adreste mevcut olmayabilir.
+        Örnek olarak an itibarı ile İstanbul, Arnavutköy, Anadolu Mahallesi'nde Sendeo seçeneği mevcuttur ancak ileri bir tarihte veya başka bir adreste mevcut olmayabilir.
         Bunun önüne geçmek için 143. ve 144. satırlarda uygun kargo adı girilmelidir.
         
         Zaman zaman StaleElementReference exceptionı alınmaktadır. Program tekrar çalıştırılmalıdır.
