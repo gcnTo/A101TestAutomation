@@ -10,10 +10,15 @@ Notlar:
         seçilirken offset kullanılmak zorunda kalınmıştır. By.cssSelector, By.name vb. diğer yöntemlerle alan seçimi yapıldığında sözleşmeleri açmaktadır.
         Offset kullanılması sebebi ile 1920x1080 tam ekran modunda test ettiğimi belirtmek isterim.
         
-        A101 websitesine adres kaydederken herhangi bir değişiklik yapılmamış ise kaydet butonuna tıklanılamamaktadır. 
+        A101 websitesine adres kaydederken herhangi bir değişiklik yapılmamış ise kaydet butonuna tıklanılamamaktadır. Bunun önüne geçmek için yeni adres girilmelidir.
         
         Kargo firmaları değişkenlik gösterebilmektedir. İlgili kargoya göre kod değiştirilmek durumundadır.
         Örnek olarak an itibarı ile İstanbul, Arnavutköy, Anadolu Mahallesi'nde UPS Kargo seçeneği mevcuttur ancak ileride veya başka bir adreste mevcut olmayabilir.
+        Bunun önüne geçmek için 148. ve 149. satırlarda uygun kargo adı girilmelidir.
+        
+        Zaman zaman StaleElementReference exceptionı alınmaktadır. Program tekrar çalıştırılmalıdır.
+        
+        Zaman zaman Ten rengi çorap seçilmektedir ancak bu durmda program bunu kontrol edip bir önceki sayfaya geri dönüp siyah çorap seçildiğini doğrulamaktadır.
         
         Zaman zaman başlangıçta linklere tıklanamadığı durumlarla karşılaştım benzer bir durum ile karşılaşırsanız veya herhangi bir hata ile karşılaşırsanız lütfen             bildirin.
         
