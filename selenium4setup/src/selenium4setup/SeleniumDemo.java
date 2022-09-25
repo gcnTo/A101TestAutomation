@@ -140,8 +140,8 @@ public class SeleniumDemo {
 		driver.findElement(By.xpath("//button[contains(text(),'KAYDET')]")).click();
 		
 		System.out.println("Phase 20");
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'UPS Kargo')]")));
-		driver.findElement(By.xpath("//span[contains(text(),'UPS Kargo')]")).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'Sendeo')]")));
+		driver.findElement(By.xpath("//span[contains(text(),'Sendeo')]")).click();
 		
 		System.out.println("Phase 21");
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(),'Kaydet ve Devam Et')]")));
