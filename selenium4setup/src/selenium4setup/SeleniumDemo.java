@@ -176,6 +176,8 @@ public class SeleniumDemo {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//body/section[1]/section[1]/div[1]/div[3]/div[2]/div[1]/div[2]/form[1]/div[2]/div[2]/div[6]/button[1]/span[2]")));
 		driver.findElement(By.xpath("//body/section[1]/section[1]/div[1]/div[3]/div[2]/div[1]/div[2]/form[1]/div[2]/div[2]/div[6]/button[1]/span[2]")).click();
 
+		// Comment out the next line to see the payment process 
+		// Ödeme alanının gözlemlenebilmesi için driver.quit() komutuna yorum satırı eklenmelidir.
                 driver.quit();
 		
 	}
